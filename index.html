@@ -5,17 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Mockup remade</title>
   </head>
 
   <body>
     <header>
-      <div>
+      <div class="header">
         <a href="https://www.simplyrecipes.com"
           ><img src="./assets/img/logo.png"
         /></a>
+        <div class="sub_header">
+          Part of
+          <span class="sub_h_spawn">A SIMPLY FABULOUS THANKSGIVING</span>
+        </div>
       </div>
-      <div>Part of <b>A SIMPLY FABULOUS THANKSGIVING</b></div>
     </header>
     <main>
       <article>
@@ -31,24 +46,21 @@
         </div>
         <div>
           <video controls poster="./assets/img/focaccia.png">
-            <source
-              src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              type="video/mp4"
-            />
+            <source src="./assets/video/video.mp4" type="video/mp4" />
             <source src="movie.ogg" type="video/ogg" />
             Your browser does not support the video tag.
           </video>
-          <p>Image: Sally Vegas</p>
-          <div>
-            <div>FEATURED IN:</div>
+          <p class="image_credit">Image: Sally Vegas</p>
+          <div class="featured">
+            <div class="feat_text"><b>FEATURED IN:</b></div>
             <a href="#">Fresh cranberry recipes </a>
           </div>
         </div>
       </article>
       <section>
         <h3>Ingredients</h3>
-        <div>
-          <p>For the focaccia</p>
+        <div class="ingredients">
+          <p class="instriction_title">For the focaccia</p>
           <ul>
             <li>4 cups (500g) all-purpose flour</li>
             <li>1 1/2 teaspoons instant yeast</li>
@@ -56,7 +68,7 @@
             <li>1 3/4 cups (350g) lukewarm water</li>
             <li>1/4 cup extra virgin olive oil, plus more for the pan</li>
           </ul>
-          <p>For the topping</p>
+          <p class="instriction_title">For the topping</p>
           <ul>
             <li>3 medium yellow onions, thinly sliced</li>
             <li>1 tablespoon balsamic vinegar</li>
@@ -72,18 +84,20 @@
       </section>
       <section>
         <h3>Method</h3>
-        <ol>
-          <li>
-            <span>Make the focaccia dough</span>
-            <p>
-              In a medium-sized mixing bowl, or in a stand mixer with a paddle
-              attachment, mix together all the dough ingredients until the flour
-              is fully absorbed. You don't need to actually knead the dough,
-              though I sometimes knead it a few times in the bowl when mixing by
-              hand to incorporate the last of the flour...
-            </p>
-          </li>
-        </ol>
+        <div class="method">
+          <ol>
+            <li>
+              <span class="instriction_title">Make the focaccia dough</span>
+              <p>
+                In a medium-sized mixing bowl, or in a stand mixer with a paddle
+                attachment, mix together all the dough ingredients until the
+                flour is fully absorbed. You don't need to actually knead the
+                dough, though I sometimes knead it a few times in the bowl when
+                mixing by hand to incorporate the last of the flour...
+              </p>
+            </li>
+          </ol>
+        </div>
       </section>
     </main>
     <footer>
